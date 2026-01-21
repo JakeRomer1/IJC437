@@ -64,7 +64,7 @@ inc_exp_dum$direction <- factor(
   levels = c("Income is greater",
              "Expenditure is greater"))
 
-# graph 1 - dumbbell plot to display total income and total expenditure
+# create dumbbell plot to display total income and total expenditure using 'inc_exp_dum'
 ggplot(inc_exp_dum, aes(x = Operator)) +
   geom_segment(aes(x = Operator,
                    xend = Operator,
@@ -252,4 +252,5 @@ ggplot(cava, aes(x = Operator,
                     name = "Key") +
   labs(x = "Train Operator",
        y = "Subsidy Amount (pence per passenger KM)")
+
 
