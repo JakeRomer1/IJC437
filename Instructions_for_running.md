@@ -1,5 +1,4 @@
-# IJC437
-IJC437 coursework
+# IJC437 Coursework
 
 How to run:
 1. Download R file
